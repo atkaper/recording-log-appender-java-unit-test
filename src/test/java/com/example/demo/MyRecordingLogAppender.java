@@ -90,7 +90,7 @@ public class MyRecordingLogAppender extends ConsoleAppender {
      * Retrieve a list of matching messages with given substring and level.
      * @param level     level
      * @param substring (partial) text to search for
-     * @return List of matching message, or empty list if none found
+     * @return List of matching messages, or empty list if none found
      */
     public List<String> findMessages(final String level, final String substring) {
         List<String> result = new ArrayList<>();
